@@ -5,7 +5,7 @@ import (
 )
 
 type Topic struct {
-	Name         string
-	TemplateName string
-	Subscribers  []sub.Subscriber
+	Name        string
+	Subject     string
+	Subscribers []sub.Subscriber
 }
